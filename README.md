@@ -1,0 +1,2 @@
+# cssMemSlider
+training project
