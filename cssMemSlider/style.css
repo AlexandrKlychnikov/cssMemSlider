@@ -1,0 +1,41 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 1.25rem;
+  color: white;
+  background-color: #161515;
+}
+
+section {
+  width: 90vw;
+  height: calc(95vh - 7rem);
+  margin: 0 auto;
+  background-color: #161515;
+}
+
+h1 {
+  margin: 0;
+  padding: 0.75rem 0;
+  font-size: 1.75rem;
+  font-weight: normal;
+  text-align: center;
+}
+
+.slider-inner {
+  margin-top: -1.5rem;
+  overflow: hidden;
+}
+
+.slider-slides {
+  display: flex;
+  width: 400%;
+  transition: transform 0.8s ease;
+}
+
+.slider-slides img {
+  width: 90vw;
+  aspect-ratio: 1.4 / 1;
+  max-height: calc(95vh - 7rem);
+  border-radius: 0.75rem;
+}
