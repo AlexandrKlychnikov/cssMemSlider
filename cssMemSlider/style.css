@@ -116,3 +116,42 @@ h1 {
   transform: translate(-270vw);
 }
 
+@media screen and (max-width: 680px) {
+  h1 {
+    padding: 0.25rem 0;
+    font-size: 1.5rem;
+  }
+
+  body {
+    font-size: 1rem;
+  }
+
+}
+
+@media screen and (max-width: 320px) {
+  h1 {
+    padding: 0.25rem 0;
+    font-size: 1.25rem;
+  }
+
+  body {
+    font-size: 1rem;
+  }
+
+  .slider-controls {
+    justify-content: center;
+    width: 90vw;
+    transform: translate(0vw, -3.15rem);
+    background-color: #161515;
+  }
+
+  .text {
+    z-index: 3;
+    transform: translateY(1rem);
+  }
+
+  .slider-controls label {
+    height: 1.75rem;
+  }
+}
+
